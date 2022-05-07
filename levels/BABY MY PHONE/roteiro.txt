@@ -1,0 +1,17 @@
+Oi, qual é o tamanho do seu cuscuz? Bemmm lá estava eu frio, calculista [incrivel a semelhança que eu tenho com light yagami de deathnote], pensando no que fazer, com minhas habelidades em java, tive a ideia de criar um jogo em java, mas como assim em java? Que deabos é isso? Java meu caro é uma linguagem de programação foda. alias minecraft é feito em java, seu carro tambem é feito em java (argumentos)  :) 
+ Eu nunca fiz um jogo sem engine, no caso fazer um jogo do zero sem nenhuma orientação, criar um jogo sem essas engines torna a criação muito mais dificil , oque seria uma engine? Engine é uma aplicação que estrutura seu jogo, você mover as coisas bunitinhas na tela e etc, então nem sabia por onde começar, pesquisei no youtube encontrei esse vídeo da ´´ danke code ´´,  ´´shiu vadia eu fiz o curso da danke code´´, maluco tava ensinando a criar cubos na tela... e algumas coisas, pra mim já foi o suficiente para aprender o basico da implementação do canvas / swing, ingles? , pra quem provavelmente não sabe , resumindo o canvas tem a responsabilidade de desenhar na tela chao, personagens, todo o "jogo em si", dai o swing é responsavel pela criação da janela e outros elementos basicos.
+ Ta agora eu sei fazer um jogo, mas qual jogo eu irei fazer? No caso... olhando pra queles cubo, olhando bem pra queles cubos, quando clicados somem, já me lembro de um jogo... Sim isso mesmo Osu.
+ 
+ [TRANSIção FODA]
+ 
+ Mecanica, nenhum jogo existe sem macanica, é algo essencial para a estrutura de um game, ela é quem faz existe a essencia do jogo, seu jeitinho, no caso eu tenho que replica a mecanica do jogo alvo, então tenho que analisar a mecanica do Osu.
+ 
+ [analisando mecanica do osu]
+ 
+ Bem a mecanica do Osu é bastante simples de se compreender, é apenas um monte de objeto que se gera na tela em um periodo de tempo, para existe a sicronia com a musica, você também tem que clicar no ritmo para pontuar, caso contrario não pontua, enquanto objetos que já são ultrapassados no ritimo são eliminados, simples não? Simples dizer, quero ver fazer...
+ 
+ [etapas]
+ 
+ Primeiro tenho que fazer pelo menos o basico, como eu comentei anterior mente sobre a mecanica, que se gera objetos na tela, tenho que recriar isso.
+  Vou fazer o seguinte, vou mandar o jogo ler um arquivo de texto em etapas separadas por um ; , o jogo tera que interpretrar oque ta escrito dentro dele, então fiz uma estrutura basica. Tempo ~ X e Y, oque ira ocorrer aqui é o seguinte, o jogo ira gerar um objeto no eixo X, Y,
+pra quem não entendeu X pro lado, pro outro, y pra cima e para baixo,  logo após o tempo dito esse objeto sera eliminado e pulara para proxima etapa dentro do txt
